@@ -3,14 +3,16 @@
   "name": "module-automation-automation-core-filament",
   "display_name": "AutomationCore Filament",
   "description": "Filament 5 presentation adapter for module-automation-automation-core.",
-  "version": "1.0.9",
+  "version": "1.1.0",
   "category": "presentation",
   "provider": "Liberu\\Modules\\Automation\\AutomationCore\\Filament\\AutomationCoreFilamentServiceProvider",
   "requires": {
     "php": "^8.5",
     "laravel": "^13.0",
     "packages": {
-      "liberusoftware/automation-automation-core": "^1.0"
+      "liberusoftware/automation-automation-core": "^1.0",
+      "liberusoftware/integrations": "^1.0",
+      "liberusoftware/organizations-teams": "^1.0"
     }
   },
   "capabilities": [
